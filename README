@@ -1,4 +1,7 @@
-# Project Structure
+
+# ArabicRAG: Arabic Retrieval-Augmented Generation
+
+### Project Structure
 # arabic_legal_search/
 # ├── config.py
 # ├── document_processor.py
@@ -8,3 +11,39 @@
 # ├── utils.py
 # ├── main.py
 # └── requirements.txt
+## Overview
+ArabicRAG is an open-source project designed to leverage the power of retrieval-augmented generation for processing and understanding Arabic legal documents. The system integrates advanced NLP techniques to retrieve relevant documents and generate context-aware responses.
+
+## Features
+- **Document Processing**: Load and preprocess Arabic text documents efficiently.
+- **Embedding Generation**: Utilize multilingual models to generate embeddings for Arabic text.
+- **Efficient Search**: Leverage FAISS for fast and efficient similarity search in large document corpora.
+- **Response Generation**: Use state-of-the-art transformer models to generate responses based on retrieved context.
+
+## Installation
+To set up your environment and run ArabicRAG, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/maljefairi/arabicRAG
+   ```
+2. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+After installation, you can run the main script to start processing documents:
+```bash
+python main.py
+```
+
+## Contributing
+Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+- **Dr. Mohammed Al-Jefairi** - maljefairi@sidramail.com
+- **GitHub**: [maljefairi](https://github.com/maljefairi/arabicRAG)

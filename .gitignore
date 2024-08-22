@@ -1,3 +1,5 @@
 # .gitignore file
 # .venv/ is the virtual environment folder
 .venv/
+
+.* !/.gitignore.* !/.gitignore

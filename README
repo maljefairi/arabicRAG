@@ -1,0 +1,10 @@
+# Project Structure
+# arabic_legal_search/
+# ├── config.py
+# ├── document_processor.py
+# ├── embedding_generator.py
+# ├── search_engine.py
+# ├── response_generator.py
+# ├── utils.py
+# ├── main.py
+# └── requirements.txt
